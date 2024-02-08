@@ -1,9 +1,8 @@
-<<<<<<< HEAD
-=======
+
 
 ![image](https://github.com/RoxanaTeodora/Goal-React-App/assets/142969879/5934416e-734c-4cc2-a545-a83b483d5356)
->>>>>>> 5c22ddcffbbb500b3784834810a84dee824196c9
-# Goal-React-App This React application consists of three main components: GoalForm, ListOfGoal, and App.
+
+# Goal-React-App This React application consists of three main components: GoalForm, ListOfGoal, and App
 
 GoalForm Component:
 
@@ -21,7 +20,7 @@ App Component:
 This is the root component of the application.
 It sets up the overall structure of the app, including the title, and a background for the form and the list of goals.
 It uses the useState hook to manage the list of goals (allGoals).
-<<<<<<< HEAD
+
 The addGoal function is passed as a prop to the GoalForm component, allowing new goals to be added to the list of goals.
-=======
->>>>>>> 5c22ddcffbbb500b3784834810a84dee824196c9
+
+
