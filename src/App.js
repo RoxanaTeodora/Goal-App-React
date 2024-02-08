@@ -25,18 +25,18 @@ function GoalForm(props) {
         <input
           type="text"
           name="goal"
-          placeholder="goal"
+          placeholder="My goal"
           value={formData.goal}
           onChange={changeHandler}
         />
         <input
           type="text"
           name="by"
-          placeholder="by"
+          placeholder="by: "
           value={formData.by}
           onChange={changeHandler}
         />
-        <button>Submit goal</button>
+        <button className="buton">Submit goal</button>
       </form>
     </>
   );
@@ -49,7 +49,7 @@ function ListOfGoal(props) {
       {props.allGoals.map((g) => (
         <li key={g.goal}>
           <span>
-            My goal is {g.goal}, by{g.by}
+            My goal is {g.goal}, by {g.by}
           </span>
         </li>
       ))}
@@ -68,8 +68,11 @@ function App() {
 
   return (
     <div className="App">
-      <GoalForm onAdd={addGoal} />
-      <ListOfGoal allGoals={allGoals} />
+      <h1 className="title">My goal app</h1>
+      <div className="background">
+        <GoalForm onAdd={addGoal} />
+        <ListOfGoal allGoals={allGoals} />
+      </div>
     </div>
   );
 }

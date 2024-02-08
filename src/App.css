@@ -1,8 +1,52 @@
 .App {
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 5vh;
+  background-color: ;
+  font-family: Verdana;
+}
+
+.title {
+  color: #b47b84;
 }
 
 .lista {
   list-style-type: none; /* Elimină marcatorul din listă */
+  margin-right: 3.8vw;
 }
+
+.background {
+  background-color: #f5eee6;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  border-radius: 1vw;
+  padding: 10px;
+}
+
+input {
+  border-radius: 10px;
+  padding: 0.5vw;
+  margin: 1vw;
+}
+
+.buton {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  background-color: #e78895;
+  border-radius: 10px;
+  padding: 0.5vw;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 3px #999;
+  margin-left: 26vw;
+}
+
+/* form {
+  background-color: #ffe4c9;
+  with: 30vw;
+  height: 30vh;
+  margin: 0 30vw;
+  border-radius: 5vw;
+  box-shadow: 0 3px #999;
+} */
