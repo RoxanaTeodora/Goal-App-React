@@ -1,4 +1,4 @@
-![image](https://github.com/RoxanaTeodora/Goal-React-App/assets/142969879/5934416e-734c-4cc2-a545-a83b483d5356)
+![image](https://github.com/RoxanaTeodora/Goal-App-React/assets/142969879/23882fc0-3f35-46bb-904d-5902fcf31ebf)
 
 # Goal-React-App This React application consists of three main components: GoalForm, ListOfGoal, and App.
 
