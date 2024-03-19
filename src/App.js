@@ -68,8 +68,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="title">My goal app</h1>
       <div className="background">
+        <h1 className="title">My goal app</h1>
         <GoalForm onAdd={addGoal} />
         <ListOfGoal allGoals={allGoals} />
       </div>
